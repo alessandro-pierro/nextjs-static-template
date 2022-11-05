@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": 1
+  }
+}

@@ -1,0 +1,2 @@
+ignores: ["eslint", "babel-*", "@types/node"]
+skip-missing: true

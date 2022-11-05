@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-static-template",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Alessandro Pierro",
+    "email": "info@alessandropierro.it"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "npm run prettier-format && next lint",
+    "check": "npm run depcheck && npm run check-dependency",
+    "depcheck": "depcheck",
+    "check-dependency": "npm audit",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*' --write",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.6",
+    "@types/react": "18.0.21",
+    "@types/styled-components": "^5.1.26",
+    "depcheck": "^1.4.3",
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}

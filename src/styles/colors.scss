@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #3c3c3c;
+  --secondary-color: #fe5b5e;
+
+  --primary-text-color: #bfc0c0;
+  --secondary-text-color: #fe5b5e;
+}
+
+/* Override Dark Theme with main theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #3c3c3c;
+    --secondary-color: #fe5b5e;
+
+    --primary-text-color: #bfc0c0;
+    --secondary-text-color: #fe5b5e;
+  }
+}

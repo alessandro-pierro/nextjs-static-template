@@ -1,0 +1,30 @@
+/*Import the Font*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import 'colors.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+}
+
+body {
+  overflow: hidden;
+}
+
+#__next {
+  display: contents;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
