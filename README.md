@@ -50,4 +50,4 @@ A NextJS 12 typescript template configurable to easily deploy on AWS **_- NO SER
   | AWS_REGION | The default AWS region | eu-west-1 |
   | AWS_CLOUDFRONT_DISTRIBUTION_ID | The CF distribution id | **\*\***\*\***\*\*** |
 
-- Repeat the setup for all the environment you do need (**_Follow the dotenv standard_**)
+- Repeat the setup for all the environments you do need (**_Follow the dotenv standard_**)
